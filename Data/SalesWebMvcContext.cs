@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace SalesWeMvc.Models
+namespace SalesWebMvc.Models
 {
     public class SalesWebMvcContext : DbContext
     {
@@ -13,6 +13,6 @@ namespace SalesWeMvc.Models
         {
         }
 
-        public DbSet<SalesWeMvc.Models.Department> Department { get; set; } = default!;
+        public DbSet<SalesWebMvc.Models.Department> Department { get; set; } = default!;
     }
 }
