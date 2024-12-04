@@ -29,9 +29,9 @@ namespace SalesWebMvc.Controllers
         public async Task<IActionResult> FakeSeed()
         {
             Department d1 = new Department(1, "Computers");
-            Department d4 = new Department(4, "Celular");
-            Department d2 = new Department(5, "Magazines");
-            Department d3 = new Department(6, "Fashion");
+            Department d2 = new Department(4, "Celular");
+            Department d3 = new Department(5, "Fashion");
+            Department d4 = new Department(6, "Books");
 
             Seller s1 = new Seller(1, "Bob Brown", "brown@email.com", new DateTime(1998, 4, 21), 1000, d1);
             Seller s2 = new Seller(2, "Maria Green", "maria@email.com", new DateTime(1979, 12, 31), 3500, d2);
