@@ -81,7 +81,7 @@ namespace SalesWebMvc.Controllers
 
             await _context.SaveChangesAsync();
 
-            return View(await _context.Department.ToListAsync());
+            return this.View(await _context.Department.ToListAsync());
         }
 
         // GET: Departments/Details/5
