@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using SalesWebMvc.Models;
 using SalesWebMvc.Services;
+using System.Globalization;
+using Microsoft.AspNetCore.HttpsPolicy;
 
 
 var builder = WebApplication.CreateBuilder(args);
